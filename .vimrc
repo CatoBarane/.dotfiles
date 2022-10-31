@@ -36,13 +36,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
-" Plug 'airblade/vim-gitgutter'
-" Plug 'vim-scripts/grep.vim'
 Plug 'vim-scripts/CSApprox'
 Plug 'Raimondi/delimitMate'
-" Plug 'majutsushi/tagbar'
 Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
@@ -522,8 +517,6 @@ endif
 
 set background=dark
 set relativenumber 
-" set completeopt=menuone,longest
-" set shortmess+=c
 nnoremap <F5> :set invpaste paste?<CR>
 set pastetoggle=<F5>
 set showmode
