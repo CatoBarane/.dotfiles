@@ -524,3 +524,4 @@ set showmode
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
 
+map q <nop>
