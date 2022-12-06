@@ -10,7 +10,7 @@ endif
 
 let g:vim_bootstrap_langs = "python"
 let g:vim_bootstrap_editor = "vim"				" nvim or vim
-let g:vim_bootstrap_theme = "gruvbox"
+" let g:vim_bootstrap_theme = "gruvbox"
 let g:vim_bootstrap_frams = ""
 
 if !filereadable(vimplug_exists)
@@ -44,6 +44,8 @@ Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'morhetz/gruvbox'
 Plug 'valloric/youcompleteme'
+Plug 'pangloss/vim-javascript'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -514,7 +516,7 @@ else
   let g:airline_symbols.linenr = ''
 endif
 
-
+" set termguicolors
 set background=dark
 set relativenumber 
 nnoremap <F5> :set invpaste paste?<CR>

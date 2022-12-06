@@ -18,3 +18,7 @@ alias ll='ls -la'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias rc.lua='vim ~/.dotfiles/.config/awesome/rc.lua'
+alias printscreen='flameshot gui'
+alias notes='vim ~/OneDrive/30-39\ consultant/notes.md'
+alias gh='grep ~/.bash_history'
+. "$HOME/.cargo/env"

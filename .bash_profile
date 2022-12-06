@@ -7,6 +7,8 @@ fi
 
 # User specific environment and startup programs
 
+export EDITOR=/usr/bin/vim/
+export SUDO_EDITOR=/usr/bin/vim/
 
 
-
+. "$HOME/.cargo/env"
